@@ -1,0 +1,6 @@
+[submodule "PCB/keyboard_accessories.pretty"]
+	path = PCB/keyboard_accessories.pretty
+	url = https://github.com/daprice/keyboard_accessories.pretty.git
+[submodule "PCB/keyswitches.pretty"]
+	path = PCB/keyswitches.pretty
+	url = https://github.com/daprice/keyswitches.pretty.git
