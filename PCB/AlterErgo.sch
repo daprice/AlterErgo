@@ -61,7 +61,7 @@ U 1 1 5AB9675D
 P 2300 4700
 F 0 "U2" H 2900 5650 60  0000 C CNN
 F 1 "MCP23018" H 2300 4875 60  0000 C CNN
-F 2 "" H 2050 4850 60  0001 C CNN
+F 2 "Housings_DIP:DIP-28_W7.62mm" H 2050 4850 60  0001 C CNN
 F 3 "" H 2050 4850 60  0001 C CNN
 	1    2300 4700
 	1    0    0    -1  
@@ -72,7 +72,7 @@ U 1 1 5AB96F37
 P 5850 1500
 F 0 "SW5:7" H 5900 1600 50  0000 L CNN
 F 1 "SW_Push" H 5850 1440 50  0000 C CNN
-F 2 "" H 5850 1700 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 5850 1700 50  0001 C CNN
 F 3 "" H 5850 1700 50  0001 C CNN
 	1    5850 1500
 	1    0    0    -1  
@@ -94,7 +94,7 @@ U 1 1 5AB971D8
 P 6600 1500
 F 0 "SW5:8" H 6650 1600 50  0000 L CNN
 F 1 "SW_Push" H 6600 1440 50  0000 C CNN
-F 2 "" H 6600 1700 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 6600 1700 50  0001 C CNN
 F 3 "" H 6600 1700 50  0001 C CNN
 	1    6600 1500
 	1    0    0    -1  
@@ -116,7 +116,7 @@ U 1 1 5AB972A7
 P 7350 1500
 F 0 "SW5:9" H 7400 1600 50  0000 L CNN
 F 1 "SW_Push" H 7350 1440 50  0000 C CNN
-F 2 "" H 7350 1700 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 7350 1700 50  0001 C CNN
 F 3 "" H 7350 1700 50  0001 C CNN
 	1    7350 1500
 	1    0    0    -1  
@@ -138,7 +138,7 @@ U 1 1 5AB972B6
 P 8100 1500
 F 0 "SW5:10" H 8150 1600 50  0000 L CNN
 F 1 "SW_Push" H 8100 1440 50  0000 C CNN
-F 2 "" H 8100 1700 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 8100 1700 50  0001 C CNN
 F 3 "" H 8100 1700 50  0001 C CNN
 	1    8100 1500
 	1    0    0    -1  
@@ -160,7 +160,7 @@ U 1 1 5AB97581
 P 8850 1500
 F 0 "SW5:11" H 8900 1600 50  0000 L CNN
 F 1 "SW_Push" H 8850 1440 50  0000 C CNN
-F 2 "" H 8850 1700 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 8850 1700 50  0001 C CNN
 F 3 "" H 8850 1700 50  0001 C CNN
 	1    8850 1500
 	1    0    0    -1  
@@ -182,7 +182,7 @@ U 1 1 5AB97590
 P 9600 1500
 F 0 "SW5:12" H 9650 1600 50  0000 L CNN
 F 1 "SW_Push" H 9600 1440 50  0000 C CNN
-F 2 "" H 9600 1700 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 9600 1700 50  0001 C CNN
 F 3 "" H 9600 1700 50  0001 C CNN
 	1    9600 1500
 	1    0    0    -1  
@@ -204,7 +204,7 @@ U 1 1 5AB9759F
 P 10350 1500
 F 0 "SW5:13" H 10400 1600 50  0000 L CNN
 F 1 "SW_Push" H 10350 1440 50  0000 C CNN
-F 2 "" H 10350 1700 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 10350 1700 50  0001 C CNN
 F 3 "" H 10350 1700 50  0001 C CNN
 	1    10350 1500
 	1    0    0    -1  
@@ -226,7 +226,7 @@ U 1 1 5AB977AB
 P 5850 2250
 F 0 "SW4:7" H 5900 2350 50  0000 L CNN
 F 1 "SW_Push" H 5850 2190 50  0000 C CNN
-F 2 "" H 5850 2450 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 5850 2450 50  0001 C CNN
 F 3 "" H 5850 2450 50  0001 C CNN
 	1    5850 2250
 	1    0    0    -1  
@@ -248,7 +248,7 @@ U 1 1 5AB977BA
 P 6600 2250
 F 0 "SW4:8" H 6650 2350 50  0000 L CNN
 F 1 "SW_Push" H 6600 2190 50  0000 C CNN
-F 2 "" H 6600 2450 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 6600 2450 50  0001 C CNN
 F 3 "" H 6600 2450 50  0001 C CNN
 	1    6600 2250
 	1    0    0    -1  
@@ -270,7 +270,7 @@ U 1 1 5AB977C9
 P 7350 2250
 F 0 "SW4:9" H 7400 2350 50  0000 L CNN
 F 1 "SW_Push" H 7350 2190 50  0000 C CNN
-F 2 "" H 7350 2450 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 7350 2450 50  0001 C CNN
 F 3 "" H 7350 2450 50  0001 C CNN
 	1    7350 2250
 	1    0    0    -1  
@@ -292,7 +292,7 @@ U 1 1 5AB977D8
 P 8100 2250
 F 0 "SW4:10" H 8150 2350 50  0000 L CNN
 F 1 "SW_Push" H 8100 2190 50  0000 C CNN
-F 2 "" H 8100 2450 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 8100 2450 50  0001 C CNN
 F 3 "" H 8100 2450 50  0001 C CNN
 	1    8100 2250
 	1    0    0    -1  
@@ -314,7 +314,7 @@ U 1 1 5AB977E7
 P 8850 2250
 F 0 "SW4:11" H 8900 2350 50  0000 L CNN
 F 1 "SW_Push" H 8850 2190 50  0000 C CNN
-F 2 "" H 8850 2450 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 8850 2450 50  0001 C CNN
 F 3 "" H 8850 2450 50  0001 C CNN
 	1    8850 2250
 	1    0    0    -1  
@@ -336,7 +336,7 @@ U 1 1 5AB977F6
 P 9600 2250
 F 0 "SW4:12" H 9650 2350 50  0000 L CNN
 F 1 "SW_Push" H 9600 2190 50  0000 C CNN
-F 2 "" H 9600 2450 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 9600 2450 50  0001 C CNN
 F 3 "" H 9600 2450 50  0001 C CNN
 	1    9600 2250
 	1    0    0    -1  
@@ -358,7 +358,7 @@ U 1 1 5AB97805
 P 10350 2250
 F 0 "SW4:13" H 10400 2350 50  0000 L CNN
 F 1 "SW_Push" H 10350 2190 50  0000 C CNN
-F 2 "" H 10350 2450 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 10350 2450 50  0001 C CNN
 F 3 "" H 10350 2450 50  0001 C CNN
 	1    10350 2250
 	1    0    0    -1  
@@ -380,7 +380,7 @@ U 1 1 5AB97B8B
 P 6600 3000
 F 0 "SW3:8" H 6650 3100 50  0000 L CNN
 F 1 "SW_Push" H 6600 2940 50  0000 C CNN
-F 2 "" H 6600 3200 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 6600 3200 50  0001 C CNN
 F 3 "" H 6600 3200 50  0001 C CNN
 	1    6600 3000
 	1    0    0    -1  
@@ -402,7 +402,7 @@ U 1 1 5AB97B9A
 P 7350 3000
 F 0 "SW3:9" H 7400 3100 50  0000 L CNN
 F 1 "SW_Push" H 7350 2940 50  0000 C CNN
-F 2 "" H 7350 3200 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 7350 3200 50  0001 C CNN
 F 3 "" H 7350 3200 50  0001 C CNN
 	1    7350 3000
 	1    0    0    -1  
@@ -424,7 +424,7 @@ U 1 1 5AB97BA9
 P 8100 3000
 F 0 "SW3:10" H 8150 3100 50  0000 L CNN
 F 1 "SW_Push" H 8100 2940 50  0000 C CNN
-F 2 "" H 8100 3200 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 8100 3200 50  0001 C CNN
 F 3 "" H 8100 3200 50  0001 C CNN
 	1    8100 3000
 	1    0    0    -1  
@@ -446,7 +446,7 @@ U 1 1 5AB97BB8
 P 8850 3000
 F 0 "SW3:11" H 8900 3100 50  0000 L CNN
 F 1 "SW_Push" H 8850 2940 50  0000 C CNN
-F 2 "" H 8850 3200 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 8850 3200 50  0001 C CNN
 F 3 "" H 8850 3200 50  0001 C CNN
 	1    8850 3000
 	1    0    0    -1  
@@ -468,7 +468,7 @@ U 1 1 5AB97BC7
 P 9600 3000
 F 0 "SW3:12" H 9650 3100 50  0000 L CNN
 F 1 "SW_Push" H 9600 2940 50  0000 C CNN
-F 2 "" H 9600 3200 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 9600 3200 50  0001 C CNN
 F 3 "" H 9600 3200 50  0001 C CNN
 	1    9600 3000
 	1    0    0    -1  
@@ -490,7 +490,7 @@ U 1 1 5AB97BD6
 P 10350 3000
 F 0 "SW3:13" H 10400 3100 50  0000 L CNN
 F 1 "SW_Push" H 10350 2940 50  0000 C CNN
-F 2 "" H 10350 3200 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 10350 3200 50  0001 C CNN
 F 3 "" H 10350 3200 50  0001 C CNN
 	1    10350 3000
 	1    0    0    -1  
@@ -512,7 +512,7 @@ U 1 1 5AB97BE5
 P 5850 3750
 F 0 "SW2:7" H 5900 3850 50  0000 L CNN
 F 1 "SW_Push" H 5850 3690 50  0000 C CNN
-F 2 "" H 5850 3950 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 5850 3950 50  0001 C CNN
 F 3 "" H 5850 3950 50  0001 C CNN
 	1    5850 3750
 	1    0    0    -1  
@@ -534,7 +534,7 @@ U 1 1 5AB97BF4
 P 6600 3750
 F 0 "SW2:8" H 6650 3850 50  0000 L CNN
 F 1 "SW_Push" H 6600 3690 50  0000 C CNN
-F 2 "" H 6600 3950 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 6600 3950 50  0001 C CNN
 F 3 "" H 6600 3950 50  0001 C CNN
 	1    6600 3750
 	1    0    0    -1  
@@ -556,7 +556,7 @@ U 1 1 5AB97C03
 P 7350 3750
 F 0 "SW2:9" H 7400 3850 50  0000 L CNN
 F 1 "SW_Push" H 7350 3690 50  0000 C CNN
-F 2 "" H 7350 3950 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 7350 3950 50  0001 C CNN
 F 3 "" H 7350 3950 50  0001 C CNN
 	1    7350 3750
 	1    0    0    -1  
@@ -578,7 +578,7 @@ U 1 1 5AB97C12
 P 8100 3750
 F 0 "SW2:10" H 8150 3850 50  0000 L CNN
 F 1 "SW_Push" H 8100 3690 50  0000 C CNN
-F 2 "" H 8100 3950 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 8100 3950 50  0001 C CNN
 F 3 "" H 8100 3950 50  0001 C CNN
 	1    8100 3750
 	1    0    0    -1  
@@ -600,7 +600,7 @@ U 1 1 5AB97C21
 P 8850 3750
 F 0 "SW2:11" H 8900 3850 50  0000 L CNN
 F 1 "SW_Push" H 8850 3690 50  0000 C CNN
-F 2 "" H 8850 3950 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 8850 3950 50  0001 C CNN
 F 3 "" H 8850 3950 50  0001 C CNN
 	1    8850 3750
 	1    0    0    -1  
@@ -622,7 +622,7 @@ U 1 1 5AB97C30
 P 9600 3750
 F 0 "SW2:12" H 9650 3850 50  0000 L CNN
 F 1 "SW_Push" H 9600 3690 50  0000 C CNN
-F 2 "" H 9600 3950 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 9600 3950 50  0001 C CNN
 F 3 "" H 9600 3950 50  0001 C CNN
 	1    9600 3750
 	1    0    0    -1  
@@ -644,7 +644,7 @@ U 1 1 5AB97C3F
 P 10350 3750
 F 0 "SW2:13" H 10400 3850 50  0000 L CNN
 F 1 "SW_Push" H 10350 3690 50  0000 C CNN
-F 2 "" H 10350 3950 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 10350 3950 50  0001 C CNN
 F 3 "" H 10350 3950 50  0001 C CNN
 	1    10350 3750
 	1    0    0    -1  
@@ -666,7 +666,7 @@ U 1 1 5AB98710
 P 5850 4500
 F 0 "SW1:7" H 5900 4600 50  0000 L CNN
 F 1 "SW_Push" H 5850 4440 50  0000 C CNN
-F 2 "" H 5850 4700 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 5850 4700 50  0001 C CNN
 F 3 "" H 5850 4700 50  0001 C CNN
 	1    5850 4500
 	1    0    0    -1  
@@ -688,7 +688,7 @@ U 1 1 5AB9871F
 P 6600 4500
 F 0 "SW1:8" H 6650 4600 50  0000 L CNN
 F 1 "SW_Push" H 6600 4440 50  0000 C CNN
-F 2 "" H 6600 4700 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 6600 4700 50  0001 C CNN
 F 3 "" H 6600 4700 50  0001 C CNN
 	1    6600 4500
 	1    0    0    -1  
@@ -710,7 +710,7 @@ U 1 1 5AB9872E
 P 7350 4500
 F 0 "SW1:9" H 7400 4600 50  0000 L CNN
 F 1 "SW_Push" H 7350 4440 50  0000 C CNN
-F 2 "" H 7350 4700 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 7350 4700 50  0001 C CNN
 F 3 "" H 7350 4700 50  0001 C CNN
 	1    7350 4500
 	1    0    0    -1  
@@ -732,7 +732,7 @@ U 1 1 5AB9873D
 P 8100 4500
 F 0 "SW1:10" H 8150 4600 50  0000 L CNN
 F 1 "SW_Push" H 8100 4440 50  0000 C CNN
-F 2 "" H 8100 4700 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 8100 4700 50  0001 C CNN
 F 3 "" H 8100 4700 50  0001 C CNN
 	1    8100 4500
 	1    0    0    -1  
@@ -754,7 +754,7 @@ U 1 1 5AB9874C
 P 8850 4500
 F 0 "SW1:11" H 8900 4600 50  0000 L CNN
 F 1 "SW_Push" H 8850 4440 50  0000 C CNN
-F 2 "" H 8850 4700 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 8850 4700 50  0001 C CNN
 F 3 "" H 8850 4700 50  0001 C CNN
 	1    8850 4500
 	1    0    0    -1  
@@ -776,7 +776,7 @@ U 1 1 5AB9875B
 P 9600 4500
 F 0 "SW1:12" H 9650 4600 50  0000 L CNN
 F 1 "SW_Push" H 9600 4440 50  0000 C CNN
-F 2 "" H 9600 4700 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 9600 4700 50  0001 C CNN
 F 3 "" H 9600 4700 50  0001 C CNN
 	1    9600 4500
 	1    0    0    -1  
@@ -798,7 +798,7 @@ U 1 1 5AB9876A
 P 10350 4500
 F 0 "SW1:13" H 10400 4600 50  0000 L CNN
 F 1 "SW_Push" H 10350 4440 50  0000 C CNN
-F 2 "" H 10350 4700 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 10350 4700 50  0001 C CNN
 F 3 "" H 10350 4700 50  0001 C CNN
 	1    10350 4500
 	1    0    0    -1  
@@ -820,7 +820,7 @@ U 1 1 5AB98779
 P 5850 5250
 F 0 "SW0:7" H 5900 5350 50  0000 L CNN
 F 1 "SW_Push" H 5850 5190 50  0000 C CNN
-F 2 "" H 5850 5450 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 5850 5450 50  0001 C CNN
 F 3 "" H 5850 5450 50  0001 C CNN
 	1    5850 5250
 	1    0    0    -1  
@@ -842,7 +842,7 @@ U 1 1 5AB98788
 P 6600 5250
 F 0 "SW0:8" H 6650 5350 50  0000 L CNN
 F 1 "SW_Push" H 6600 5190 50  0000 C CNN
-F 2 "" H 6600 5450 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 6600 5450 50  0001 C CNN
 F 3 "" H 6600 5450 50  0001 C CNN
 	1    6600 5250
 	1    0    0    -1  
@@ -864,7 +864,7 @@ U 1 1 5AB98797
 P 7350 5250
 F 0 "SW0:9" H 7400 5350 50  0000 L CNN
 F 1 "SW_Push" H 7350 5190 50  0000 C CNN
-F 2 "" H 7350 5450 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 7350 5450 50  0001 C CNN
 F 3 "" H 7350 5450 50  0001 C CNN
 	1    7350 5250
 	1    0    0    -1  
@@ -886,7 +886,7 @@ U 1 1 5AB987A6
 P 8100 5250
 F 0 "SW0:10" H 8150 5350 50  0000 L CNN
 F 1 "SW_Push" H 8100 5190 50  0000 C CNN
-F 2 "" H 8100 5450 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 8100 5450 50  0001 C CNN
 F 3 "" H 8100 5450 50  0001 C CNN
 	1    8100 5250
 	1    0    0    -1  
@@ -908,7 +908,7 @@ U 1 1 5AB987B5
 P 8850 5250
 F 0 "SW0:11" H 8900 5350 50  0000 L CNN
 F 1 "SW_Push" H 8850 5190 50  0000 C CNN
-F 2 "" H 8850 5450 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 8850 5450 50  0001 C CNN
 F 3 "" H 8850 5450 50  0001 C CNN
 	1    8850 5250
 	1    0    0    -1  
@@ -930,7 +930,7 @@ U 1 1 5AB987C4
 P 9600 5250
 F 0 "SW0:12" H 9650 5350 50  0000 L CNN
 F 1 "SW_Push" H 9600 5190 50  0000 C CNN
-F 2 "" H 9600 5450 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_optional_reversible" H 9600 5450 50  0001 C CNN
 F 3 "" H 9600 5450 50  0001 C CNN
 	1    9600 5250
 	1    0    0    -1  
@@ -1538,7 +1538,7 @@ U 1 1 5AC41C7D
 P 1300 6400
 F 0 "J2" H 1250 6480 50  0000 C CNN
 F 1 "SJ-43514" H 1420 6030 50  0000 C CNN
-F 2 "" H 1550 6500 50  0001 C CNN
+F 2 "keyboard_accessories:TRRS_Jack_SJ-43514_reversible" H 1550 6500 50  0001 C CNN
 F 3 "" H 1550 6500 50  0001 C CNN
 	1    1300 6400
 	1    0    0    -1  
