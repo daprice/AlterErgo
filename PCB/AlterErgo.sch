@@ -1346,19 +1346,19 @@ Text Label 1450 3000 2    60   ~ 0
 COL12
 Text Label 1450 2850 2    60   ~ 0
 COL13
-Text Label 3200 5500 0    60   ~ 0
-COL0
-Text Label 3200 5400 0    60   ~ 0
-COL1
-Text Label 3200 5300 0    60   ~ 0
-COL2
-Text Label 3200 5200 0    60   ~ 0
-COL3
-Text Label 3200 5100 0    60   ~ 0
-COL4
 Text Label 3200 5000 0    60   ~ 0
-COL5
+COL0
 Text Label 3200 4900 0    60   ~ 0
+COL1
+Text Label 3200 5500 0    60   ~ 0
+COL2
+Text Label 3200 5400 0    60   ~ 0
+COL3
+Text Label 3200 5300 0    60   ~ 0
+COL4
+Text Label 3200 5200 0    60   ~ 0
+COL5
+Text Label 3200 5100 0    60   ~ 0
 COL6
 Text Label 3200 4100 0    60   ~ 0
 ROW0
