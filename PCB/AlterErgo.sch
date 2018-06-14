@@ -1690,12 +1690,6 @@ F 3 "" H 3750 4800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3600 3650 3200 3650
-Wire Wire Line
-	3200 3650 3200 3900
-Wire Wire Line
-	3200 4000 3600 4000
-Wire Wire Line
 	3600 4800 3200 4800
 $Comp
 L GND #PWR014
@@ -1756,4 +1750,14 @@ Wire Wire Line
 	2850 1400 3450 1400
 Wire Wire Line
 	3450 1400 3450 1700
+Wire Wire Line
+	3200 3900 3600 3900
+Wire Wire Line
+	3600 3900 3600 4000
+Wire Wire Line
+	3200 4000 3450 4000
+Wire Wire Line
+	3450 4000 3450 3650
+Wire Wire Line
+	3450 3650 3600 3650
 $EndSCHEMATC
