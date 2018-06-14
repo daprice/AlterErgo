@@ -1320,45 +1320,45 @@ Text Label 9250 6000 0    60   ~ 0
 COL12
 Text Label 10000 6000 0    60   ~ 0
 COL13
-Text Label 2850 2000 0    60   ~ 0
+Text Label 2850 2750 0    60   ~ 0
 ROW0
-Text Label 2850 2150 0    60   ~ 0
+Text Label 2850 2600 0    60   ~ 0
 ROW1
 Text Label 2850 2300 0    60   ~ 0
 ROW2
-Text Label 2850 2600 0    60   ~ 0
+Text Label 2850 2150 0    60   ~ 0
 ROW3
-Text Label 2850 2750 0    60   ~ 0
+Text Label 2850 2000 0    60   ~ 0
 ROW4
 Text Label 1450 2250 2    60   ~ 0
 ROW5
-Text Label 1450 2100 2    60   ~ 0
+Text Label 1450 1500 2    60   ~ 0
 COL7
-Text Label 1450 1950 2    60   ~ 0
+Text Label 1450 1650 2    60   ~ 0
 COL8
 Text Label 1450 1800 2    60   ~ 0
 COL9
-Text Label 1450 1650 2    60   ~ 0
+Text Label 1450 1950 2    60   ~ 0
 COL10
-Text Label 1450 1500 2    60   ~ 0
+Text Label 1450 2100 2    60   ~ 0
 COL11
-Text Label 1450 3000 2    60   ~ 0
-COL12
 Text Label 1450 2850 2    60   ~ 0
+COL12
+Text Label 1450 3000 2    60   ~ 0
 COL13
-Text Label 3200 5000 0    60   ~ 0
-COL0
-Text Label 3200 4900 0    60   ~ 0
-COL1
 Text Label 3200 5500 0    60   ~ 0
-COL2
+COL0
 Text Label 3200 5400 0    60   ~ 0
-COL3
+COL1
 Text Label 3200 5300 0    60   ~ 0
-COL4
+COL2
 Text Label 3200 5200 0    60   ~ 0
-COL5
+COL3
 Text Label 3200 5100 0    60   ~ 0
+COL4
+Text Label 3200 5000 0    60   ~ 0
+COL5
+Text Label 3200 4900 0    60   ~ 0
 COL6
 Text Label 3200 4100 0    60   ~ 0
 ROW0
@@ -1730,4 +1730,30 @@ F 3 "" H 4200 4800 50  0001 C CNN
 	1    4200 4800
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Conn_01x02 J4
+U 1 1 5B21D76B
+P 3650 1700
+F 0 "J4" H 3650 1800 50  0000 C CNN
+F 1 "Conn_01x02" H 3650 1500 50  0000 C CNN
+F 2 "Connectors_JST:JST_PH_S2B-PH-SM4-TB_02x2.00mm_Angled" H 3650 1700 50  0001 C CNN
+F 3 "" H 3650 1700 50  0001 C CNN
+	1    3650 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR017
+U 1 1 5B21E9A5
+P 3450 1800
+F 0 "#PWR017" H 3450 1550 50  0001 C CNN
+F 1 "GND" H 3450 1650 50  0000 C CNN
+F 2 "" H 3450 1800 50  0001 C CNN
+F 3 "" H 3450 1800 50  0001 C CNN
+	1    3450 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2850 1400 3450 1400
+Wire Wire Line
+	3450 1400 3450 1700
 $EndSCHEMATC
