@@ -1,0 +1,361 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:switches
+LIBS:IOBreakout-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L FeatherBreakout U1
+U 1 1 5AB958F7
+P 2125 1925
+F 0 "U1" H 2600 3125 60  0000 C CNN
+F 1 "FeatherBreakout" V 2100 1900 60  0000 C CNN
+F 2 "IOBreakout:FeatherBreakout" H 2350 2000 60  0001 C CNN
+F 3 "" H 2350 2000 60  0001 C CNN
+	1    2125 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCP23018 U2
+U 1 1 5AB9675D
+P 2300 4700
+F 0 "U2" H 2900 5650 60  0000 C CNN
+F 1 "MCP23018" H 2300 4875 60  0000 C CNN
+F 2 "Housings_DIP:DIP-28_W7.62mm" H 2050 4850 60  0001 C CNN
+F 3 "" H 2050 4850 60  0001 C CNN
+	1    2300 4700
+	1    0    0    -1  
+$EndComp
+Text Label 2850 2750 0    60   ~ 0
+ROW0
+Text Label 2850 2600 0    60   ~ 0
+ROW1
+Text Label 2850 2300 0    60   ~ 0
+ROW2
+Text Label 2850 2150 0    60   ~ 0
+ROW3
+Text Label 2850 2000 0    60   ~ 0
+ROW4
+Text Label 1450 2250 2    60   ~ 0
+ROW5
+Text Label 1450 1500 2    60   ~ 0
+COL6
+Text Label 1450 1650 2    60   ~ 0
+COL5
+Text Label 1450 1800 2    60   ~ 0
+COL4
+Text Label 1450 1950 2    60   ~ 0
+COL3
+Text Label 1450 2100 2    60   ~ 0
+COL2
+Text Label 1450 2850 2    60   ~ 0
+COL1
+Text Label 1450 3000 2    60   ~ 0
+COL0
+Text Label 3200 5500 0    60   ~ 0
+COL0
+Text Label 3200 5400 0    60   ~ 0
+COL1
+Text Label 3200 5300 0    60   ~ 0
+COL2
+Text Label 3200 5200 0    60   ~ 0
+COL3
+Text Label 3200 5100 0    60   ~ 0
+COL4
+Text Label 3200 5000 0    60   ~ 0
+COL5
+Text Label 3200 4900 0    60   ~ 0
+COL6
+Text Label 3200 4100 0    60   ~ 0
+ROW0
+Text Label 3200 4600 0    60   ~ 0
+ROW5
+Text Label 3200 4500 0    60   ~ 0
+ROW4
+Text Label 3200 4400 0    60   ~ 0
+ROW3
+Text Label 3200 4300 0    60   ~ 0
+ROW2
+Text Label 3200 4200 0    60   ~ 0
+ROW1
+Text Label 2850 2900 0    60   ~ 0
+SCL
+Text Label 2850 3050 0    60   ~ 0
+SDA
+Text Label 1350 4200 2    60   ~ 0
+SCL
+Text Label 1350 4350 2    60   ~ 0
+SDA
+$Comp
+L GND #PWR01
+U 1 1 5ABA15EE
+P 1900 5850
+F 0 "#PWR01" H 1900 5600 50  0001 C CNN
+F 1 "GND" H 1900 5700 50  0000 C CNN
+F 2 "" H 1900 5850 50  0001 C CNN
+F 3 "" H 1900 5850 50  0001 C CNN
+	1    1900 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 5ABA1CD0
+P 1050 1350
+F 0 "#PWR02" H 1050 1100 50  0001 C CNN
+F 1 "GND" H 1050 1200 50  0000 C CNN
+F 2 "" H 1050 1350 50  0001 C CNN
+F 3 "" H 1050 1350 50  0001 C CNN
+	1    1050 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L +3V3 #PWR03
+U 1 1 5ABA2018
+P 1050 1050
+F 0 "#PWR03" H 1050 900 50  0001 C CNN
+F 1 "+3V3" H 1050 1190 50  0000 C CNN
+F 2 "" H 1050 1050 50  0001 C CNN
+F 3 "" H 1050 1050 50  0001 C CNN
+	1    1050 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +3V3 #PWR04
+U 1 1 5ABA2174
+P 2000 5850
+F 0 "#PWR04" H 2000 5700 50  0001 C CNN
+F 1 "+3V3" H 2000 5990 50  0000 C CNN
+F 2 "" H 2000 5850 50  0001 C CNN
+F 3 "" H 2000 5850 50  0001 C CNN
+	1    2000 5850
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 5ABA28A8
+P 1350 4700
+F 0 "#PWR05" H 1350 4450 50  0001 C CNN
+F 1 "GND" H 1350 4550 50  0000 C CNN
+F 2 "" H 1350 4700 50  0001 C CNN
+F 3 "" H 1350 4700 50  0001 C CNN
+	1    1350 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L +3V3 #PWR06
+U 1 1 5ABA2A04
+P 1350 4950
+F 0 "#PWR06" H 1350 4800 50  0001 C CNN
+F 1 "+3V3" H 1350 5090 50  0000 C CNN
+F 2 "" H 1350 4950 50  0001 C CNN
+F 3 "" H 1350 4950 50  0001 C CNN
+	1    1350 4950
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 1350 5050
+NoConn ~ 1350 5150
+NoConn ~ 1450 3150
+NoConn ~ 1450 2700
+NoConn ~ 1450 2550
+NoConn ~ 1450 2400
+Wire Wire Line
+	1450 1050 1050 1050
+Wire Wire Line
+	1450 1350 1050 1350
+NoConn ~ 2850 2450
+$Comp
+L R R1
+U 1 1 5ABA783B
+P 3550 900
+F 0 "R1" V 3630 900 50  0000 C CNN
+F 1 "2.2k" V 3550 900 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3480 900 50  0001 C CNN
+F 3 "" H 3550 900 50  0001 C CNN
+	1    3550 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 5ABA7ABE
+P 3750 900
+F 0 "R2" V 3830 900 50  0000 C CNN
+F 1 "2.2k" V 3750 900 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3680 900 50  0001 C CNN
+F 3 "" H 3750 900 50  0001 C CNN
+	1    3750 900 
+	1    0    0    -1  
+$EndComp
+Text Label 3550 1050 3    60   ~ 0
+SCL
+Text Label 3750 1050 3    60   ~ 0
+SDA
+$Comp
+L +3V3 #PWR07
+U 1 1 5ABA8385
+P 3550 750
+F 0 "#PWR07" H 3550 600 50  0001 C CNN
+F 1 "+3V3" H 3550 890 50  0000 C CNN
+F 2 "" H 3550 750 50  0001 C CNN
+F 3 "" H 3550 750 50  0001 C CNN
+	1    3550 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR08
+U 1 1 5ABA84ED
+P 3750 750
+F 0 "#PWR08" H 3750 600 50  0001 C CNN
+F 1 "+3V3" H 3750 890 50  0000 C CNN
+F 2 "" H 3750 750 50  0001 C CNN
+F 3 "" H 3750 750 50  0001 C CNN
+	1    3750 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L SJ-43514 J2
+U 1 1 5AC41C7D
+P 1300 6400
+F 0 "J2" H 1250 6480 50  0000 C CNN
+F 1 "SJ-43514" H 1420 6030 50  0000 C CNN
+F 2 "keyboard_accessories:TRRS_Jack_SJ-43514_reversible" H 1550 6500 50  0001 C CNN
+F 3 "" H 1550 6500 50  0001 C CNN
+	1    1300 6400
+	1    0    0    -1  
+$EndComp
+Text Label 1500 6500 0    60   ~ 0
+SDA
+Text Label 1500 6600 0    60   ~ 0
+SCL
+$Comp
+L GS3 J3
+U 1 1 5AC445B8
+P 2000 6400
+F 0 "J3" H 2050 6600 50  0000 C CNN
+F 1 "GS3" H 2050 6201 50  0000 C CNN
+F 2 "Connectors:GS3" V 2088 6326 50  0001 C CNN
+F 3 "" H 2000 6400 50  0001 C CNN
+	1    2000 6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L GS3 J1
+U 1 1 5AC44744
+P 1100 7050
+F 0 "J1" H 1150 7250 50  0000 C CNN
+F 1 "GS3" H 1150 6851 50  0000 C CNN
+F 2 "Connectors:GS3" V 1188 6976 50  0001 C CNN
+F 3 "" H 1100 7050 50  0001 C CNN
+	1    1100 7050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR09
+U 1 1 5AC4498C
+P 2150 6300
+F 0 "#PWR09" H 2150 6050 50  0001 C CNN
+F 1 "GND" H 2150 6150 50  0000 C CNN
+F 2 "" H 2150 6300 50  0001 C CNN
+F 3 "" H 2150 6300 50  0001 C CNN
+	1    2150 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 5AC44D1A
+P 1200 7200
+F 0 "#PWR010" H 1200 6950 50  0001 C CNN
+F 1 "GND" H 1200 7050 50  0000 C CNN
+F 2 "" H 1200 7200 50  0001 C CNN
+F 3 "" H 1200 7200 50  0001 C CNN
+	1    1200 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR011
+U 1 1 5AC44E8E
+P 2150 6500
+F 0 "#PWR011" H 2150 6350 50  0001 C CNN
+F 1 "+3V3" H 2150 6640 50  0000 C CNN
+F 2 "" H 2150 6500 50  0001 C CNN
+F 3 "" H 2150 6500 50  0001 C CNN
+	1    2150 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L +3V3 #PWR012
+U 1 1 5AC45002
+P 1000 7200
+F 0 "#PWR012" H 1000 7050 50  0001 C CNN
+F 1 "+3V3" H 1000 7340 50  0000 C CNN
+F 2 "" H 1000 7200 50  0001 C CNN
+F 3 "" H 1000 7200 50  0001 C CNN
+	1    1000 7200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1500 6400 1850 6400
+Wire Wire Line
+	1100 6800 1100 6900
+Text Notes 1450 7150 0    60   ~ 0
+TRRS jack with jumpers to select\nwhich ring does power and which\none does ground
+Text Notes 1550 3750 0    60   ~ 0
+IO expander in left half
+Text Notes 1150 650  0    60   ~ 0
+Dev board in right half
+Text Label 3200 3900 0    60   ~ 0
+LED1
+Text Label 3200 4000 0    60   ~ 0
+LED2
+Text Label 3200 4800 0    60   ~ 0
+LED3
+Text Label 2850 1850 0    60   ~ 0
+LED1
+Text Label 2850 1550 0    60   ~ 0
+ENABLE
+Text Label 1450 900  2    60   ~ 0
+RESET
+Text Label 2850 950  0    60   ~ 0
+LED2
+Text Label 2850 1100 0    60   ~ 0
+LED3
+$EndSCHEMATC

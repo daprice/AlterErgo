@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name keyboard_accessories)(type KiCad)(uri "$(KIPRJMOD)/keyboard_accessories.pretty")(options "")(descr ""))
+  (lib (name IOBreakout)(type KiCad)(uri "$(KIPRJMOD)/IOBreakout.pretty")(options "")(descr ""))
+)
